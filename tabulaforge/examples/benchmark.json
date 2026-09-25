@@ -1,0 +1,110 @@
+{
+  "classification": [
+    {
+      "name": "xgboost",
+      "task": "classification",
+      "hpo": false,
+      "metrics": {
+        "accuracy": 0.8856,
+        "f1_macro": 0.8855,
+        "precision_macro": 0.8858,
+        "recall_macro": 0.8854,
+        "roc_auc": 0.9189
+      }
+    },
+    {
+      "name": "sklearn",
+      "task": "classification",
+      "hpo": false,
+      "metrics": {
+        "accuracy": 0.88,
+        "f1_macro": 0.8799,
+        "precision_macro": 0.8803,
+        "recall_macro": 0.8798,
+        "roc_auc": 0.9174
+      }
+    },
+    {
+      "name": "lightgbm",
+      "task": "classification",
+      "hpo": false,
+      "metrics": {
+        "accuracy": 0.8811,
+        "f1_macro": 0.881,
+        "precision_macro": 0.8813,
+        "recall_macro": 0.881,
+        "roc_auc": 0.9157
+      }
+    }
+  ],
+  "regression": [
+    {
+      "name": "lightgbm",
+      "task": "regression",
+      "hpo": false,
+      "metrics": {
+        "rmse": 45.6941,
+        "mae": 34.4751,
+        "r2": 0.9462
+      }
+    },
+    {
+      "name": "sklearn",
+      "task": "regression",
+      "hpo": false,
+      "metrics": {
+        "rmse": 46.8002,
+        "mae": 36.2877,
+        "r2": 0.9435
+      }
+    },
+    {
+      "name": "xgboost",
+      "task": "regression",
+      "hpo": false,
+      "metrics": {
+        "rmse": 63.425,
+        "mae": 48.6422,
+        "r2": 0.8963
+      }
+    }
+  ],
+  "classification_hpo": [
+    {
+      "name": "xgboost",
+      "task": "classification",
+      "hpo": true,
+      "metrics": {
+        "accuracy": 0.8911,
+        "f1_macro": 0.891,
+        "precision_macro": 0.8914,
+        "recall_macro": 0.8909,
+        "roc_auc": 0.9202
+      }
+    },
+    {
+      "name": "sklearn",
+      "task": "classification",
+      "hpo": true,
+      "metrics": {
+        "accuracy": 0.8878,
+        "f1_macro": 0.8877,
+        "precision_macro": 0.8878,
+        "recall_macro": 0.8877,
+        "roc_auc": 0.9185
+      }
+    },
+    {
+      "name": "lightgbm",
+      "task": "classification",
+      "hpo": true,
+      "metrics": {
+        "accuracy": 0.8878,
+        "f1_macro": 0.8877,
+        "precision_macro": 0.8878,
+        "recall_macro": 0.8877,
+        "roc_auc": 0.9184
+      }
+    }
+  ]
+}

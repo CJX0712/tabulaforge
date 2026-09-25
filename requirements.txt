@@ -1,0 +1,12 @@
+# TabulaForge 运行时依赖（版本锁定，与 requirements.lock.txt 对齐）
+# 作者：晨星
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+pandas==3.0.6
+xgboost==3.4.1
+lightgbm==4.7.0
+optuna==5.0.0
+
+# 开发/测试
+pytest>=8.0
